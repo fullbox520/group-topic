@@ -6,11 +6,17 @@ body {
 body .cid-rTpW4eKEc3 {
   width: 100%;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .cid-rTpW4eKEc3 .mbr-figure {
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 
 body .cid-rTpW4eKEc3 .mbr-figure .banner_plant {
@@ -24,12 +30,32 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_plant {
   background-position: center;
   -webkit-transition: 2s;
   transition: 2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 body .cid-rTpW4eKEc3 .mbr-figure .banner_plant:hover {
   -webkit-box-flex: 6;
       -ms-flex: 6;
           flex: 6;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_plant .banner_plantTitle {
+  font-size: 32px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
 }
 
 body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant {
@@ -43,11 +69,31 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant {
   background-position: center;
   -webkit-transition: 2s;
   transition: 2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant:hover {
   -webkit-box-flex: 6;
       -ms-flex: 6;
           flex: 6;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant .banner_restaurantTitle {
+  font-size: 32px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
 }
 /*# sourceMappingURL=style.css.map */
