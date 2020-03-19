@@ -19,6 +19,18 @@ body .cid-rTpW4eKEc3 .mbr-figure {
   height: 50%;
 }
 
+body .cid-rTpW4eKEc3 .mbr-figure:hover .banner_plant .banner_mask .banner_plantTitle {
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure:hover .banner_restaurant .banner_mask .banner_restaurantTitle {
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
 body .cid-rTpW4eKEc3 .mbr-figure .banner_plant {
   width: 40%;
   height: 100%;
@@ -28,6 +40,30 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_plant {
   background-image: url(./assets/images/環境01.jpg);
   background-size: cover;
   background-position: center;
+  -webkit-transition: 2s;
+  transition: 2s;
+  position: relative;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_plant .plant_logo {
+  width: 90px;
+  height: 90px;
+  background-image: url(./assets/images/plant_logo.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 45px);
+  left: calc(50% - 45px);
+  opacity: 0;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_plant .banner_mask {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
   -webkit-transition: 2s;
   transition: 2s;
   display: -webkit-box;
@@ -41,13 +77,7 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_plant {
           justify-content: flex-end;
 }
 
-body .cid-rTpW4eKEc3 .mbr-figure .banner_plant:hover {
-  -webkit-box-flex: 6;
-      -ms-flex: 6;
-          flex: 6;
-}
-
-body .cid-rTpW4eKEc3 .mbr-figure .banner_plant .banner_plantTitle {
+body .cid-rTpW4eKEc3 .mbr-figure .banner_plant .banner_mask .banner_plantTitle {
   font-size: 32px;
   color: white;
   display: -webkit-box;
@@ -56,6 +86,26 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_plant .banner_plantTitle {
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_plant:hover {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_plant:hover .banner_mask {
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_plant:hover .plant_logo {
+  opacity: 1;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
 }
 
 body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant {
@@ -69,6 +119,30 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant {
   background-position: center;
   -webkit-transition: 2s;
   transition: 2s;
+  position: relative;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant .restaurant_logo {
+  width: 90px;
+  height: 90px;
+  background-image: url(./assets/images/restaurant_logo.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 45px);
+  left: calc(50% - 45px);
+  opacity: 0;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant .banner_mask {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  -webkit-transition: 2s;
+  transition: 2s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,13 +154,7 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant {
           justify-content: flex-start;
 }
 
-body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant:hover {
-  -webkit-box-flex: 6;
-      -ms-flex: 6;
-          flex: 6;
-}
-
-body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant .banner_restaurantTitle {
+body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant .banner_mask .banner_restaurantTitle {
   font-size: 32px;
   color: white;
   display: -webkit-box;
@@ -95,5 +163,25 @@ body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant .banner_restaurantTitle {
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant:hover {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant:hover .banner_mask {
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+body .cid-rTpW4eKEc3 .mbr-figure .banner_restaurant:hover .restaurant_logo {
+  opacity: 1;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
 }
 /*# sourceMappingURL=style.css.map */
