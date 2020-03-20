@@ -8,6 +8,7 @@ body {
         height: 100vh;
         display: flex;
         align-items: center;
+        background-color: gray;
         
         
         .mbr-figure {
@@ -46,14 +47,14 @@ body {
             transition: 2s;
             position: relative;
             .plant_logo{
-              width: 90px;
-              height: 90px;
+              width: 200px;
+              height: 200px;
               background-image: url(../img/plant_logo.png);
               background-position: center;
               background-size: cover;
               position: absolute;
-              top:calc(50% - 45px);
-              left:calc(50% - 45px);
+              top:calc(50% - 100px);
+              left:calc(50% - 100px);
               opacity: 0;
               transition: 0.8s linear;
             }
@@ -101,14 +102,14 @@ body {
             transition: 2s;
             position: relative;
                 .restaurant_logo{
-                  width: 90px;
-                  height: 90px;
+                  width: 200px;
+                  height: 200px;
                   background-image: url(../img/restaurant_logo.png);
                   background-position: center;
                   background-size: cover;
                   position: absolute;
-                  top:calc(50% - 45px);
-                  left:calc(50% - 45px);
+                  top:calc(50% - 100px);
+                  left:calc(50% - 100px);
                   opacity: 0;
                   transition: 0.8s linear;
                 }
@@ -152,5 +153,127 @@ body {
           }
         }
       }
-  
+  .mbr-section{
+    width: 100%;
+    height: 100vh;
+    // background-color: gray;
+    display: flex;
+    justify-content: center;
+
+    .container{
+       width: 100%;
+       height: 100vh;
+      //  max-width: 1170px;
+      //  padding: 0 15px;    
+
+     
+     }
+  }
+  .pagetop_footer{
+    width: 100%;
+    height: 255px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/footer-background.svg);
+    background-position: center;
+    background-size: cover;
+    
+    
+
+    .footer_container{
+      width: 100%;
+      max-width: 1170px;
+      // padding: 0 15px;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      padding: 20px;
+    
+      .footer_logo{
+        width: 50%;
+        height: 157px;
+        display: flex;
+        align-items: center;
+        // margin-left: 20px;
+
+        img{
+          width: 157px;
+          height: 157px;
+        }
+      }
+      .footer_contact{
+        width: 50%;
+        height: 157px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+        .social_media{
+          width: 25%;
+          display: flex;
+          justify-content:space-between ;
+          margin-bottom: 20px;
+          .fblogo{
+            width: 40px;
+            height: 40px;
+            background-image: url(../img/fb.svg);
+            background-position: center;
+            background-size: cover;
+            transition: 1s;
+            &:hover{
+              background-image: url(../img/facebook_2.svg);
+              transition: 1s;
+            }
+          }
+          .iglogo{
+            width: 40px;
+            height: 40px;
+            background-image: url(../img/insta.svg);
+            background-position: center;
+            background-size: cover;
+            transition: 1s;
+            &:hover{
+              background-image: url(../img/instagram_2.svg);
+              transition: 1s;
+            }
+          }
+        }
+
+        
+        .phpone{
+          width: 100%;
+          
+          .phpone_number{
+            width: 100%;
+          }
+          
+        }
+        .business_hour{
+          width: 100%;
+        }
+        .address{
+          width: 100%;
+        }
+      }
+      .white_line{
+        width: 100%;
+        border-top: solid whitesmoke 2px;
+
+      }
+      .footer_copyright{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
 }
